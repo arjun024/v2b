@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo 'default_process_types:'
+echo '  web: echo "this does not matter coz I do not speak http"'
