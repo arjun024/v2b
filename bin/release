@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo 'default_process_types:'
-echo '  web: echo "this does not matter coz I do not speak http"'
+echo '  web: echo "this does not matter much coz I do not speak http but you will see me in cf-logs"'
