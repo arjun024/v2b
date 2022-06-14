@@ -1,0 +1,9 @@
+---
+- type: replace
+  path: /instance_groups/name=api/jobs/name=cloud_controller_ng/properties/cc/stacks?
+  value:
+  - name: cflinuxfs4
+    description: Cloud Foundry Linux-based filesystem (Ubuntu 22.04)
+- type: replace
+  path: /instance_groups/name=api/jobs/name=cloud_controller_ng/properties/cc/default_stack?
+  value: cflinuxfs4
